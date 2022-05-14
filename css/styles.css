@@ -1,0 +1,44 @@
+
+
+.myfooter {
+  background-color: #282828;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.footlst {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  float:right;
+
+
+
+}
+
+.footlst li {
+  float: left;
+  font-size: large;
+  padding-left: 45px;
+  
+
+}
+
+
+.footlst li a {
+color:white;
+background-color: #333333;
+text-decoration: none;
+height: 50px;
+
+}
+.footlst li a:hover{
+ color: #333333;
+  font-weight: bold;
+  background-color: white;
+}
