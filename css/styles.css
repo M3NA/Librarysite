@@ -1,21 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.myheader {
+  height: 25px;
+  
+
+}
 
 
 .myfooter {
   background-color: #282828;
   height: 100px;
-  margin: 0;
-  padding: 0;
+}
+
+.sec1 {
+  background-image: url(../images/img.jpg);
+  height: 500px;
+  
+  background-repeat: no-repeat;
 
 
 }
 
+
+.sectiondevfoot{
+  background-color: #282828;
+
+  float: left;
+  width: 33%;
+  margin: 0;
+  height: 400px;}
+
+.sectiondevfoot h3 {
+  color: white; padding-top: 40px;
+}
+.sectiondevfoot .textbox {
+
+color:white;
+color: white; padding-top: 40px;
+width: 300px;
+
+
+}
 .footlst {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding-left: 50px;
+  height:40px;
   overflow: hidden;
   background-color: #333333;
   float:right;
+  display: block;
+  width: 100%;
+
 
 
 
@@ -23,22 +61,99 @@
 
 .footlst li {
   float: left;
-  font-size: large;
+  font-size: 20px;
   padding-left: 45px;
-  
+
 
 }
 
 
 .footlst li a {
+  display: auto;
+
 color:white;
 background-color: #333333;
 text-decoration: none;
-height: 50px;
+
+
 
 }
 .footlst li a:hover{
  color: #333333;
   font-weight: bold;
   background-color: white;
+}
+
+
+.hedlst {
+  list-style-type: none;
+  padding-left: 50px;
+  height:40px;
+  overflow: hidden;
+  float:right;
+  display: block;
+  width: 100%;
+  background-image: url(/images/img.jpg);
+}
+
+.hedlst li {
+  float: right;
+  font-size: 25px;
+  padding-left: 45px;
+margin-right: 20px;
+
+}
+
+
+.hedlst li a {
+  display: auto;
+
+color:white;
+text-decoration: none;
+
+
+
+}
+.hedlst li a:hover{
+  font-weight: bold;
+ color: brown;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+padding: 20%;
+  font-size: 100px;
+  text-align: center;
+color:white;
+letter-spacing: 10px;
+
+}
+.btn{
+
+  top: 50%;
+  left: 50%;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 20px;
+  padding: 16px 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.sec2 {
+  height: 500px;
+    background-repeat: no-repeat;
+}
+.tboks {
+  color: black;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 50px;
 }
