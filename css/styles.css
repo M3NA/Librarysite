@@ -18,10 +18,7 @@
 .sec1 {
   background-image: url(../images/img.jpg);
   height: 500px;
-  
   background-repeat: no-repeat;
-
-
 }
 
 
@@ -152,6 +149,7 @@ letter-spacing: 10px;
     background-repeat: no-repeat;
 }
 .tboks {
+
   color: black;
   margin-top: 50px;
   margin-left: 30px;
@@ -160,6 +158,23 @@ letter-spacing: 10px;
 
 
 .book {
-  width: 150px;
+  box-shadow: #282828;
+  width: 300px;
+  height: 400px;
+  border: 1px solid gray;
+  background-color: rgb(170, 170, 170);
+  box-sizing: border-box;
+  display: block;
+  float: left;
+padding: 10px;
+width: 19%;
+margin: 5px;
+text-align: center;
+font-size: 25px;
+color: white;
 
+}
+.book img{
+  width: 270px;
+   height: 330px;
 }
