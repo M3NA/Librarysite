@@ -229,3 +229,146 @@ font-size: 40px;
   align-items: center;
 
 }
+
+.story{
+  font-family: Arial, Helvetica, sans-serif;
+  font: size 30px; 
+  line-height: 30px;
+  letter-spacing:1.3px ;
+  margin-left: 40px;
+}
+.but{
+  margin-left: 40px;
+  width:90px ;
+  height:40 ;
+  border: none;
+  font-size: 25px;
+}
+.book1{
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.book2{
+  margin-left: 450px;
+  margin-top: -400px;
+}
+.book3{
+  margin-left: 550px;
+}
+.book4{
+  margin-left: 50px;
+}
+.book5{
+  margin-left: 950px;
+  margin-top: -390px;
+}
+.books1{
+  margin-left: 20px;
+}
+.books2{
+  margin-left:-20px;
+}
+.books3{
+  margin-top: -400px;
+  margin-left: 1150px;
+}
+.books3 h2{
+  margin-left: 50px;
+  margin-top: -40px;
+}
+.books3 h3{
+  margin-left: 60px;
+}
+.books4{
+  margin-left: 40px;
+}
+.books4 h2{
+  margin-left: 90px;
+  margin-top: -40px;
+}
+.books4 h3{
+  margin-top: 10px;
+  margin-left: 160px;
+color: rgb(229, 87, 5);
+}
+.books5{
+  margin-left: 400px;
+margin-top: -470px;
+} 
+.books5 h2{
+  margin-left: 45px;
+  margin-top: -35px;
+}
+.books5 h3{
+  margin-top: 10px;
+  margin-left: 140px;
+color: rgb(229, 87, 5);
+}
+.books6{
+  margin-left: 740px;
+  margin-top:-480px ;
+}
+.books6 h2{
+  margin-left: 90px;
+  margin-top: -35px;
+}
+.books6 h3{
+  margin-top: 10px;
+  margin-left: 140px;
+color: rgb(229, 87, 5);
+}
+.books7{
+  margin-left: 1100px;
+  margin-top:-470px ;
+}
+.books7 h2{
+  margin-left: 90px;
+  margin-top: -35px;
+}
+.books7 h3{
+  margin-top: 10px;
+  margin-left: 140px;
+color: rgb(229, 87, 5);
+}
+.books8{
+  margin-left: 110px;
+  margin-top: 90px;
+}
+.books8 h3{
+  margin-top: 15px;
+  margin-left: 50px;
+color: rgb(229, 87, 5);
+}
+.books9{
+  margin-left: 440px;
+  margin-top: -480px;
+}
+.books h3{
+  margin-top: 10px;
+  margin-left: 60px;
+color: rgb(229, 87, 5);
+}
+.books10{
+  margin-left:740px ;
+  margin-top:-480px ;
+}
+.books10 h2{
+  margin-left: 80px;
+  margin-top: -40px;
+}
+.books10 h3{
+  margin-top: 10px;
+  margin-left: 150px;
+color: rgb(229, 87, 5);
+}
+.books11{
+  margin-top: -450px;
+  margin-left: 1100px;
+}
+.books11 h2{
+  margin-left: 90px;
+  margin-top: -30px;
+}
+.books11 h3{
+  margin-left: 160px;
+}
