@@ -10,21 +10,20 @@
 }
 
 
-.myfooter {
-  background-color: #282828;
-  height: 100px;
-}
 
 .sec1 {
   background-image: url(../images/img.jpg);
   height: 500px;
   background-repeat: no-repeat;
 }
-
-
+footer{
+  height: 400px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+display: inline-block;}
 .sectiondevfoot{
   background-color: #282828;
-
   float: left;
   width: 50%;
   margin: 0;
@@ -130,16 +129,15 @@ letter-spacing: 10px;
 
 }
 .btn{
-
-  top: 50%;
-  left: 50%;
+align-items: center;  
   background-color: #f1f1f1;
   color: black;
   font-size: 20px;
-  padding: 16px 30px;
   border: none;
   border-radius: 5px;
   text-align: center;
+  text-decoration: none;
+padding: 10px 20px 10px;
 }
 
 .btn:hover {
@@ -189,7 +187,7 @@ color: white;
   height: 350px;
 }
 .form {
-  
+  margin-left: 20%;
   align-items: center;
 padding-top: 80px;
 padding-left: 10%;
@@ -217,16 +215,19 @@ font-size: 40px;
   height: 40px;
 
 }
-.form input[type=button] {
+.form input[type=button], .supbtn {
   width: 20%;
   box-sizing: border-box;
-  margin-right: 50px;
-  margin-left: 44%;
+  margin-right: 20px;
+  margin-left: 20%;
   border: 3px solid brown;
   background-color: brown;
   color:white;
   height: 40px;
   align-items: center;
+  text-decoration: none;
+  padding: 5px 80px;
+  font-size: 20px;
 
 }
 
@@ -244,131 +245,29 @@ font-size: 40px;
   border: none;
   font-size: 25px;
 }
-.book1{
-  margin-left: 150px;
-  margin-top: 20px;
-}
-.book2{
-  margin-left: 450px;
-  margin-top: -400px;
-}
-.book3{
-  margin-left: 550px;
-}
-.book4{
-  margin-left: 50px;
-}
-.book5{
-  margin-left: 950px;
-  margin-top: -390px;
-}
 .books1{
+  padding-bottom: 100px;
+  padding-left: 100px;
+  display: inline-block;
+  }
+  
+.booksh{
+
   margin-left: 20px;
+  float: left;
+  align-items: center;
+  align-content: center;
+  width: 22%;
+  margin-bottom: 15px;
+  text-align: center;
 }
-.books2{
-  margin-left:-20px;
-}
-.books3{
-  margin-top: -400px;
-  margin-left: 1150px;
-}
-.books3 h2{
-  margin-left: 50px;
-  margin-top: -40px;
-}
-.books3 h3{
-  margin-left: 60px;
-}
-.books4{
-  margin-left: 40px;
-}
-.books4 h2{
-  margin-left: 90px;
-  margin-top: -40px;
-}
-.books4 h3{
-  margin-top: 10px;
-  margin-left: 160px;
-color: rgb(229, 87, 5);
-}
-.books5{
-  margin-left: 400px;
-margin-top: -470px;
-} 
-.books5 h2{
-  margin-left: 45px;
-  margin-top: -35px;
-}
-.books5 h3{
-  margin-top: 10px;
-  margin-left: 140px;
-color: rgb(229, 87, 5);
-}
-.books6{
-  margin-left: 740px;
-  margin-top:-480px ;
-}
-.books6 h2{
-  margin-left: 90px;
-  margin-top: -35px;
-}
-.books6 h3{
-  margin-top: 10px;
-  margin-left: 140px;
-color: rgb(229, 87, 5);
-}
-.books7{
-  margin-left: 1100px;
-  margin-top:-470px ;
-}
-.books7 h2{
-  margin-left: 90px;
-  margin-top: -35px;
-}
-.books7 h3{
-  margin-top: 10px;
-  margin-left: 140px;
-color: rgb(229, 87, 5);
-}
-.books8{
-  margin-left: 110px;
-  margin-top: 90px;
-}
-.books8 h3{
-  margin-top: 15px;
-  margin-left: 50px;
-color: rgb(229, 87, 5);
-}
-.books9{
-  margin-left: 440px;
-  margin-top: -480px;
-}
-.books h3{
-  margin-top: 10px;
-  margin-left: 60px;
-color: rgb(229, 87, 5);
-}
-.books10{
-  margin-left:740px ;
-  margin-top:-480px ;
-}
-.books10 h2{
-  margin-left: 80px;
-  margin-top: -40px;
-}
-.books10 h3{
-  margin-top: 10px;
-  margin-left: 150px;
-color: rgb(229, 87, 5);
-}
-.books11{
-  margin-top: -450px;
-  margin-left: 1100px;
-}
-.books11 h2{
-  margin-left: 90px;
-  margin-top: -30px;
-}
-.books11 h3{
-  margin-left: 160px;
-}
+.booksh h3{
+  color: rgb(229, 87, 5);
+  }
+
+
+
+.bookcont{
+padding-top: 100px;
+display: inline-block;
+  }
